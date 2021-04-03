@@ -117,7 +117,6 @@ body, html {
 }
 
 #popular-movies {
-    background: grey;
     width: 70vw;
     height: 40vh;
     margin: 1vh 0;
@@ -129,7 +128,51 @@ body, html {
     align-items: center;
 }
 
-.movie-styling {
+.movie-main {
     border: 5px solid white;
     border-radius: 10px;
+    width: 182px;
+    height: 268px;
+
+    transition: border 0.2s ease;
+}
+
+.movie-inside {
+    display: none;
+    background: rgba(0,0,0,0);
+    width: 182px;
+    height: 268px;
+
+
+    transition: all 0.2s ease;
+}
+
+.movie-main:hover {
+    border: 5px solid yellow;
+}
+
+.movie-inside:hover {
+    background: rgba(0,0,0,0.5);
+    
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#endgame-main {
+    background: url("images/endgame.jpg");
+}
+
+#darkknight-main {
+    background: url("images/darkknight.jpg");
+}
+
+#joker-main {
+    background: url("images/joker.jpg");
+}
+
+#edge-main {
+    background: url("images/edge.jpg");
 }
