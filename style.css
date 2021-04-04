@@ -202,6 +202,49 @@ body, html {
     justify-content: center;
 }
 
+#pages {
+    width: 30vw;
+    height: 10vh;
+    margin-left: 18vw;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.onepage {
+    width: 60px;
+    height: 4em;
+    margin: 5px;
+    background: rgba(0,0,0,0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+
+    transition: all 0.2s ease;
+}
+
+#dots {
+    width: 60px;
+    height: 4em;
+    margin: 5px;
+    background: rgba(0,0,0,0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+
+    transition: all 0.2s ease;
+}
+
+.onepage:hover {
+    background: yellow;
+    color: black;
+    border: 1px solid yellow;
+}
+
 #endgame-main {
     background: url("images/endgame.jpg");
 }
